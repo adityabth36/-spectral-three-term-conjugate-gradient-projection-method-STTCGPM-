@@ -17,8 +17,7 @@ The focus is on problems arising in **numerical analysis, optimisation**, under 
 ### Standard_Equation
 Contains classical nonlinear equation problems, typically assuming:
 - Continuity
-- (Strong) monotonicity
-- Well-posedness
+- weaker monotonicity
 
 These problems are used as **baseline test cases** for convergence and performance evaluation.
 
@@ -26,31 +25,19 @@ These problems are used as **baseline test cases** for convergence and performan
 
 ### Weaker_Monotone_Equations
 Includes nonlinear equations satisfying weaker conditions such as:
-- Pseudomonotonicity
-- Quasimonotonicity
 - Generalized monotonicity assumptions
-
-These problems are useful for testing **robust algorithms** when standard monotonicity assumptions do not hold.
 
 ---
 
 ### Decentralized_logistic_regression
 Focuses on **decentralized / distributed logistic regression problems**, where:
-- Data is distributed across multiple agents
-- Communication constraints may exist
-- Optimization is performed without centralized coordination
 
-Relevant to **distributed optimization and machine learning**.
 
 ---
 
 ### Image_restoration_problem
-Contains inverse problems from image processing, including:
-- Image denoising
 - Image deblurring
-- Regularized reconstruction models
 
-These problems are typically **large-scale and ill-posed**, suitable for testing efficient numerical methods.
 
 ---
 
@@ -60,18 +47,8 @@ Deals with sparse recovery and compressed sensing problems, such as:
 - ℓ₁-regularized models
 - Signal reconstruction from limited measurements
 
-Commonly used in **signal processing and optimization**.
-
----
-
-## Purpose
-- Provide **standardized benchmark problems**
-- Support **numerical comparison of algorithms**
-- Enable **reproducible research** in nonlinear equations and optimization
 
 ---
 
 ## Notes
 - Each folder contains its own `README.md` describing the specific problem formulation.
-- MATLAB implementations and numerical experiments are included where applicable.
-- The repository is structured to align with **research articles and numerical studies**.
