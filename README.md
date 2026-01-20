@@ -1,1 +1,1 @@
-# -spectral-three-term-conjugate-gradient-projection-method-STTCGPM-
+# -Spectral-Three-Term-Conjugate-Gradient-Projection-Method-STTCGPM-
